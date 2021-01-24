@@ -1,0 +1,9 @@
+<?php
+unlink('door.php');
+unlink('window.php');
+unlink('windowglass.php');
+unlink('windowpatio.php');
+unlink('index.php');
+unlink('multipleemail.php');
+unlink('css/style.css');
+?>

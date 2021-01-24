@@ -1,0 +1,544 @@
+body{  
+    /*background-image: url('../images/websitebodyback.jpg');*/
+    background-color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+} 
+::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: #fff;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: #a7a7a7;
+}
+.talkbubble {
+   width: 70%;
+   height: 300px;
+   background: rgba(191, 191, 191, 0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+    margin: 0px auto;
+    padding:20px 0px 0px 0px;
+}
+.talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid rgba(191, 191, 191, 0.6);
+   border-bottom: 13px solid transparent;
+}
+#page{
+    margin: -10px auto;
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #fff;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #fff;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #fff;
+    box-shadow: 0px 0px 5px #000;
+}
+#pageadd{
+    margin: 0px auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 100%; 
+    text-align: center;
+    border: 10px solid #c6c5c5;
+}
+#logout{
+    background-color:#00b47d;
+    color: #fff;
+    font-size:18px;
+    width:150px;
+    height:45px;
+    margin-right:50px;
+    margin-top:4px;
+    border:none;
+}
+#logout:hover{
+    background-color: #087b72;
+}
+#topmenu4{
+    background-color: #005d56;
+    color: #fff;
+    font-size:18px;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    float:right; margin-right:30px; margin-top:5px;
+}
+#topmenu4:hover{
+    background-color: #087b72;
+}
+.buttonscounty1{
+    width:100%;
+    font-size: 20px;
+    background-color:#1c1c1c;
+    padding:5px 5px;
+    border:none;
+    color: #dedede;
+    font-family: Serif, Perpetua;
+}
+.buttonscounty{
+    width:100%;
+    font-size: 20px;
+    background-color:#434343;
+    padding:5px 5px;
+    border:none;
+    color: #fff;
+    font-family: Serif, Perpetua;
+}
+.buttonscounty1:hover{
+    background-color: #000;
+    color: #fff;
+}
+.buttonscounty:hover{
+    background-color: #000;
+    color: #fff;
+}
+#countybuttonlogo{
+    width:100%;
+    height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#00b47d;
+    padding:5px 5px;
+    color: #fff;
+    font-family: Serif, Perpetua;
+    border:none;
+}
+#topmenu1{
+    float: right;
+    width:100px;
+    height:30px;
+}
+#topmenu2{
+    float: right;
+    width:100px;
+    height:30px;
+}
+#topmenu3{
+    float: left;
+    width:100px;
+    height:50px;
+}
+#navdiv{
+    width:100%;
+    background-color:#000;
+    height:80px;
+}
+#divcont{
+    position: relative;
+    float: left;
+    width:100%;
+    height:500px;
+    background-color: #000;
+    opacity: 0.7;
+}
+#content{
+    background-color: #ddd;
+    width: 100%;
+    font-family: Serif, Perpetua;
+    color: #606060;
+}
+#content table {
+    margin: 0px auto;
+}
+#frametitle1{
+    background-color:#363636;
+    height:53px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgba(255, 255, 255, 0);
+}
+#divcountycontainer{
+    height: 600px;
+}
+.custimage1{
+   position:relative;
+   margin-top: 15px;
+   margin-left: 15px;
+   height: 500px;
+   width: 20%;
+   background-color: #999;
+   text-align:left;
+   float: left;
+}
+.custimage2{
+   position:relative;
+   margin-top: 15px;
+   margin-left: 15px;
+   height: 500px;
+   width: 70%;
+   background-color: #999;
+   text-align:left;
+   float: left;
+}
+#frametitle2{
+    padding: 10px 40px 10px 40px;
+    font-size:25px;
+    font-family: Serif, Perpetua;
+    font-weight: bold;
+    color: #000;
+    font-style: italic;
+}
+#frametitle3{
+    font-size:25px;
+    font-family: Serif, Perpetua;
+    color: #606060;
+    font-style: italic;
+}
+#frametitle4{
+    padding: 10px 40px 10px 40px;
+    font-size:25px;
+    font-family: Serif, Perpetua;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+#footer{
+    background-color:#1c1c1c;
+    padding: 20px 0px 0px 0px;
+    height:42px;
+    font-family: Serif, Perpetua;
+    color: #fff;
+}
+#labeltext1, #labeltext2, #labeltext3, #labeltext4{
+    font-size:25px;
+    font-family: Serif, Perpetua;
+    color: #000;
+    padding: 10px 10px 10px 10px;
+}
+#labeltextlogo{
+    font-size:30px;
+    font-family: Serif, Perpetua;
+    background-color: #005d56;
+    color: #fff;
+    padding: 10px 100px 10px 100px;
+    border-radius:5px;
+}
+#labeltextlogo1{
+    font-size:30px;
+    font-family: Serif, Perpetua;
+    background-color: #005d56;
+    color: #fff;
+    padding: 10px 100px 10px 100px;
+    border-radius:5px;
+}
+#textboxtext1{
+    font-size:18px;
+    font-family: Serif, Perpetua;
+    color: #000;
+    background-color: #f5fff5;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+}
+#textboxtext2, #textboxtext3, #textboxtext4{
+    font-size:18px;
+    font-family: Serif, Perpetua;
+    color: #000;
+    background-color: #f5fff5;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+}
+#tablerow1{
+  background-color: #00b47d;  
+  height: 40px;
+  color: #000;
+  font-size: 22px;
+}
+#tablerow:focus{
+  background-color: #a9ebd6;  
+}
+#tablerowbutton{
+    background-color: #1c1c1c;
+    border:2px solid #838383;
+    color: #fff;
+    height:30px;
+    width:99%;
+    text-align:center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+#tablerowbutton1{
+    background-color: #00b47d;  
+    height:70px;
+    width:250px;
+    text-align:center;
+    font-size: 18px;
+    color: #fff;
+    border:none;
+}
+#tablerowbutton1:hover{
+    background-color: #0f8477;  
+}
+#maincontent2{
+    display: none;
+}
+#smyform{
+    box-shadow: 2px 2ox 5px #000;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+#selectboxfinal{
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Serif, Perpetua;
+    background-color: #edfff0;
+}
+td{
+    background-color: #fff5f5;
+}
+#submitbutton{ 
+    margin: 10px auto;
+    background-color: #500000;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size:18px;
+    font-family: Serif, Perpetua;
+}
+#myimg{
+    height:100px;
+    width:100px;
+}
+#ovalex{
+    margin: 0px auto;
+	width: 90%;
+	height: 120px;
+	background: -webkit-linear-gradient(rgb(237, 237, 237), rgb(65, 65, 65), rgb(237, 237, 237)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(237, 237, 237), rgb(65, 65, 65), rgb(237, 237, 237)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(237, 237, 237), rgb(65, 65, 65), rgb(237, 237, 237)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(237, 237, 237), rgb(65, 65, 65), rgb(237, 237, 237)); /* Standard syntax */
+	-moz-border-radius: 150px / 50px;
+	-webkit-border-radius: 150px / 50px;
+	border-radius: 150px / 50px;
+    margin-bottom: 10px;
+    border: 10px solid #000;
+}
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+    margin: 0px auto;
+	width: 90%;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 150px / 50px;
+	-webkit-border-radius: 150px / 50px;
+	border-radius: 150px / 50px;
+    margin-bottom: 10px;
+    border: 10px solid #000;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 290px;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+/*menu styling below*/
+nav {  
+    height: 40px;  
+    width: 100%;  
+    font-size: 11pt;  
+    font-family: 'PT Sans', Arial, sans-serif;  
+    font-weight: bold;  
+    position: relative;  
+    border-bottom: 2px solid #283744; 
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0)); /* Standard syntax */
+}  
+nav ul {   
+    padding: 5px;
+    margin: 0 auto;  
+    width: 750px;  
+    height: 40px; 
+    background: #000; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}  
+nav li {  
+    display: inline;  
+    float: left;  
+}
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+}  
+nav a {  
+    color: #fff;  
+    display: inline-block;  
+    width: 150px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+    text-shadow: 1px 1px 0px #283744;  
+} 
+nav li a {  
+    border-right: 1px solid #576979;  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li a#logout {  
+    border-right: 1px solid #576979; 
+    background-color: green;
+    border-bottom-right-radius:15px;
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}
+nav li:last-child a {  
+    border-right: 0;  
+} 
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
+} 
+nav a#pull {  
+    display: none;  
+}   
+
+@media screen and (max-width: 600px) {  
+    nav {   
+        height: auto;  
+    }  
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+    nav li {  
+        width: 50%;  
+        float: left;  
+        position: relative;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+        border-right: 1px solid #576979;  
+    }  
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px; 
+    }  
+}  
+
+@media only screen and (max-width : 480px) {  
+    nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 15px;  
+        top: 10px;  
+    }  
+} 
+
+@media only screen and (max-width : 320px) {  
+    nav li {  
+        display: block;  
+        float: none;  
+        width: 100%;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+    }  
+}  
+
+@media only screen and (max-width : 1400px) {
+#divcountycontainer{
+    height: 380px;
+}
+}

@@ -1,0 +1,365 @@
+<?php
+session_id();
+session_start();
+
+$_SESSION["favcolor"] =  session_id();
+//$_SESSION["favanimal"] = $_POST['email'];
+echo "Session variables are set{$_SESSION["favcolor"]}";
+print_r($_SESSION);
+?>
+<!DOCTYPE html>
+<!--
+Template Developed by: 
+Name: Krishna Kumar Singh
+Email: krishnarathod791@gmail.com
+-->
+<html>
+<head>
+<!--title of the page-->
+<title></title>
+   
+<!--include stlesheet in the page-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--enable Jquery inside the page-->
+  
+    
+
+    
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/html2canvas.js"></script>
+<script type="text/javascript" src="js/jquery.plugin.html2canvas.js"></script>
+    
+
+</head>
+<body>
+ 
+    
+
+    
+        <!--<div>
+    <header> <!-- header tag contains logo and navigational links -->
+        <!--<div id="logo">
+        <img id="logoimage" src="images/logo.png">
+        </div>
+        <!--navigation menu starts here-->
+             <!--<ul>
+                 <a href="index.html"> <li>Home</li> </a>
+                <a href="door.html"> <li>Make Door</li> </a>
+                 <li>Nav
+                    <ul>
+                      <a href=""> <li>Nav1</li> </a>
+                     <a href="">  <li>Nav2</li> </a>
+                     <a href="">  <li>Nav3</li> </a>
+                    </ul>
+                 </li>
+               <a href="">  <li>Nav</li> </a>
+                <a href="contact.html">  <li>Contact</li> </a>
+             </ul> 
+        <!--navigation menu ends here-->
+    <!--</header>
+    </div>-->
+<!--header ends here-->
+<button id="viewcart1" class="viewcart">View Order</button>
+<div id="topmenu">
+<p id="frametitle2" style="">CLICK ON THE BUTTON TO SELECT (PROCESS LEFT-->RIGHT)</p>
+ 
+<button id="door11" class="showbutton">&nbsp </button>
+    <button class="arrowbtn">&nbsp </button>
+<button id="frame11" class="showbutton">&nbsp </button>
+    <button class="arrowbtn">&nbsp </button>
+<button id="glass11" class="showbutton">&nbsp </button>
+    <button class="arrowbtn">&nbsp </button>
+<button id="panel11" class="showbutton"> &nbsp </button>
+    <button class="arrowbtn">&nbsp </button>
+<a href="#container2" ><button id="finalizebtn" class="showbutton">&nbsp </button></a>
+</div>
+<div id="container">
+
+    
+    
+    
+<div id="frameid">
+    
+    
+
+    
+ 
+  
+    
+<!-- window starts here-->
+    <div id="doorbox4">
+    <div id="glassleft1-f1" class="bottompanel" style="display:none">1</div>
+<p id="frametitle">CLICK ON THE WINDOW FRAME TO SELECT </p>
+ 
+<table><tr><td>
+<div id="wframef1" style="background-image: url('windowimages/w1.png'); background-size: 100% 100%;"></div>
+<div id="wframef2" style="background-image: url('windowimages/w2.png'); background-size: 100% 100%;"></div>
+<div id="wframef4" style="background-image: url('windowimages/w3.png'); background-size: 100% 100%;"></div> 
+<div id="wframef5" style="background-image: url('windowimages/w4.png'); background-size: 100% 100%;"></div>
+<div id="wframef6" style="background-image: url('windowimages/w5.png'); background-size: 100% 100%;"></div>
+<div id="wframef7" style="background-image: url('windowimages/w6.png'); background-size: 100% 100%;"></div>
+<div id="wframef8" style="background-image: url('windowimages/w7.png'); background-size: 100% 100%;"></div>
+<div id="wframef10" style="background-image: url('windowimages/w8.png'); background-size: 100% 100%;"></div>
+<div id="wframef11" style="background-image: url('windowimages/w9.png'); background-size: 100% 100%;"></div>
+<div id="wframef12" style="background-image: url('windowimages/w10.png'); background-size: 100% 100%;"></div>
+<div id="wframef13" style="background-image: url('windowimages/w11.png'); background-size: 100% 100%;"></div>
+<div id="wframef14" style="background-image: url('windowimages/w12.png'); background-size: 100% 100%;"></div>
+<div id="wframef15" style="background-image: url('windowimages/w13.png'); background-size: 100% 100%;"></div>
+<div id="wframef16" style="background-image: url('windowimages/w14.png'); background-size: 100% 100%;"></div>
+<div id="wframef17" style="background-image: url('windowimages/w15.png'); background-size: 100% 100%;"></div>
+<div id="wframef18" style="background-image: url('windowimages/w16.png'); background-size: 100% 100%;"></div>
+<div id="wframef18" style="background-image: url('windowimages/w17.jpg'); background-size: 100% 100%;"></div>
+</td></tr>    
+
+    
+<tr><td>    
+<p id="frametitle">CHOOSE YOUR FRAME COLOR</p>
+        <input type="submit" id="submit1" class="colorbutton" value="Black" style="background-image: url('images/selectcolor/blackcolor.png')">
+        <input type="submit" id="submit2" class="colorbutton" value="Blue" style="background-image: url('images/selectcolor/bluecolor.png')">
+        <input type="submit" id="submit3" class="colorbutton" value="Burgundy" style="background-image: url('images/selectcolor/burgundycolor.png')">
+        <input type="submit" id="submit4" class="colorbutton" value="Green" style="background-image: url('images/selectcolor/greencolor.png')">
+        <input type="submit" id="submit5" class="colorbutton" value="Brown" style="background-image: url('images/selectcolor/oakcolor.png')">
+        <input type="submit" id="submit6" class="colorbutton" value="Red" style="background-image: url('images/selectcolor/redcolor.png')">
+        <input type="submit" id="submit7" class="colorbutton" value="Rosewood" style="background-image: url('images/selectcolor/rosewoodcolor.png')">
+        <input type="submit" id="submit8" class="colorbutton" value="Cream" style="background-image: url('images/selectcolor/creamcolor.png')">
+        <input type="submit" id="submit9" class="colorbutton" value="White" style="background-image: url('images/selectcolor/whitecolor.png')">
+    
+   </td></tr>  </table> </div>
+<!--window ends here-->
+
+</div>
+
+  <div id="framehidden">
+      </div>
+ <!-- Green Div to show door -->
+    
+    <div id="displaydoor">           
+
+  <div id="doorbox5">
+      
+    <div id="windowframe3">
+
+</div>
+      </div>
+     
+    </div>
+</div>
+    
+
+ <!--Convert to image-->  
+  
+
+  <script>
+        
+        function capture() {
+    $('#container2').html2canvas({
+        onrendered: function (canvas) {
+            //Set hidden field's value to image data (base-64 string)
+            $('#img_val').val(canvas.toDataURL("image/png"));
+            $("#img_val").attr('border', '5px solid #000');
+            //Submit the form manually
+            document.getElementById("myForm").submit();
+           
+            
+            
+            
+        }
+        
+    });
+}
+      
+      function capture1() {
+    $('#container2').html2canvas({
+        onrendered: function (canvas) {
+            //Set hidden field's value to image data (base-64 string)
+            $('#img_val').val(canvas.toDataURL("image/png"));
+            $("#img_val").attr('border', '5px solid #000');
+            //Submit the form manually
+            document.getElementById("myForm").submit();
+           
+            
+            
+        }
+        
+    });
+}
+     
+     /* function capture() {
+    $('#container2 #outerframe').html2canvas({
+        onrendered: function (canvas) {
+            //Set hidden field's value to image data (base-64 string)
+            $('#img_val').val(canvas.toDataURL("image/png"));
+            //Submit the form manually
+            document.getElementById("myForm").submit();
+        }
+    });
+}*/
+     /* function capture1() {
+    $('#frame3').html2canvas({
+        onrendered: function (canvas) {
+            //Set hidden field's value to image data (base-64 string)
+            $('canvas #frame3').css({'border':'5px solid #000'});
+             $('#img_val').val('#frame3');
+            //Submit the form manually
+            document.getElementById("myForm").submit();
+           
+            
+        }
+        
+    });
+}*/
+        </script>
+    
+     <!--Convert to image-->  
+
+   
+    <div id="container2">
+        
+        <div id="container2-2" style="float:right; display: inline-block;">
+           
+            <table>
+            <tr>
+            <td><label id="labeltext" >Height (CM)</label></td>
+            <td><input id="textboxtext" type="text"></td>
+            </tr>
+            
+            <tr>
+            <td><label id="labeltext" >Width (CM)</label></td>
+            <td><input id="textboxtext" type="text"></td>
+            </tr>
+            
+            <tr>
+            <td><label id="labeltext" >Number of Doors (CM)</label></td>
+            <td><input id="textboxtext" type="text"></td>
+            </tr>
+                
+            </table>
+            <hr>
+            
+        <form method="POST" enctype="multipart/form-data" action="ss.php" id="myForm">
+           <!-- <table>
+            <tr>
+            <td><label id="labeltext1" >Name: </label></td>
+            <td><input id="textboxtext1" type="text" name="fname"></td>
+            </tr>
+            
+            <tr>
+            <td><label id="labeltext1" >Email: </label></td>
+            <td><input id="textboxtext1" type="text"></td>
+            </tr>
+            
+            <tr>
+            <td><label id="labeltext1" >Phone: </label></td>
+            <td><input id="textboxtext1" type="text"></td>
+            </tr>
+                
+            </table>-->
+            
+                <form method="POST" enctype="multipart/form-data" action="ss.php" id="myForm">
+                    <input type="hidden" name="img_val" id="img_val" value="yjyghjh" />
+                </form>  
+            
+            <input id="formsubmit" type="submit" name="submit4" class="showbutton" value="Finalize/Email" onclick="capture();">
+            <a href="#container2" ><input type="button" id="editdoorbtn" class="showbutton" value="Edit"> </a>
+            
+        </form>
+             
+        </div>
+    
+        
+    <div id="outerframe">
+        <div id="frame3outer"></div>
+        
+    </div>
+            
+    </div>
+ 
+<div id="container3" style="display:none">
+    <button id="gobackdoor">&nbsp BACK &nbsp</button>
+     <?php
+        $folder = 'database/'.session_id().'/';
+$filetype = '*.*';
+$files = glob($folder.$filetype);
+$count = count($files);
+echo '<div>';
+echo '<table><tr>';
+for ($i = 0; $i < $count; $i++) {
+    echo '<td>';
+    
+    echo '<a name="'.$i.'" href="#'.$i.'"><img src="'.$files[$i].'" style="width: 200px; height: 150px;" onclick="myFunction()" id="showimg"/></a>';
+    //echo substr($files[$i],strlen($folder),strpos($files[$i], '.')-strlen($folder)); 
+    echo '<br>';
+    $fff = substr($files[$i],strlen($folder),strpos($files[$i], '.')-strlen($folder));
+    
+    echo '<form method="POST" enctype="multipart/form-data" action="deleteimg.php" id="myForm">';
+    echo '<input type="submit" value="'.$fff.'" name="imgbtn">';
+    echo '</form>';
+    echo '</td>';
+}
+echo '</tr></table>';
+echo '</div>';
+
+
+?>
+</div>
+
+<div id="footer">Developed By: Webbiz.ie | All Rights Reserved</div>    
+<script src="js/script.js"></script> 
+<script src="js/scriptpanel.js"></script> 
+<script src="js/scriptglass.js"></script>
+<script src="js/scriptdoor.js"></script>
+<script src="js/frameshowhide.js"></script>
+<script src="js/outerframe.js"></script>
+</body>
+</html>
+</html>
+
+
+<!------------------------------------------------
+--------------------------------------------
+----------------------
+---------------->
+ <table style="width:200px; height:350px; border: 10px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898; margin:0px auto;">
+    <tr>
+    <td style="border: 15px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898;"><div style="background-color:#bdeaea; height:100%; width:100%;"></div></td>    
+    </tr>
+    </table>
+    
+    
+    <table style="width:200px; height:350px; border: 10px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898; margin:0px auto;">
+    <tr>
+    <td style="border: 15px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898; background-color:#bdeaea">
+        <table style="border: 15px solid #e6e6e6; border-right-color:#c7c6c6; border-bottom-color:#cbc8c8; width:100%;"></table>
+        </td></tr>
+        
+    </table>
+    
+    <table style="width:400px; height:350px; border: 10px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898; margin:0px auto;">
+    <tr>
+    <td style="border: 15px solid #e6e6e6; background-color:#bdeaea">
+        </td>
+    
+        <td style="border: 15px solid #e6e6e6; background-color:#bdeaea">
+        </td>
+    </tr>
+        
+    </table>
+    
+    
+    <table style="width:400px; height:350px; border: 10px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898; margin:0px auto;">
+    <tr>
+    <td style="border: 15px solid #e6e6e6; background-color:#bdeaea; border-right-color:#989898;">
+        </td>
+    
+        <td style="border: 15px solid #e6e6e6; background-color:#bdeaea; border-right-color:#989898;">
+        </td>
+    </tr>
+        
+    </table>
+    
+    
+    <div id="outwin" style="width:200px; height:200px; border: 30px solid #e6e6e6; border-right-color:#989898; border-bottom-color:#989898;">abcd
+    <div id="inwin"></div>
+    </div>
